@@ -2,7 +2,7 @@
 
 
 
-## It's just a example to replicate the [image singleweb.png](image/single.png) using pure css, html5.
+## It's just a example to replicate the [image singleweb.png](img/singleweb.PNG) using pure css, html5.
 
 
 

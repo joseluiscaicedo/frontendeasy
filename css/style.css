@@ -1,0 +1,118 @@
+@font-face {font-family:'chromsky';src:url('../fonts/Chomsky.otf');}
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    }
+body {
+    margin: 0;
+    font-family: Arial;
+    }
+.maintitle{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'chromsky',Arial;
+    padding-bottom: 0.2em;
+}
+h2{font-weight: 800;
+    padding-bottom: 2px;
+}
+h4{padding-bottom: 0.5em;}
+.space h3{padding: 7% 0px;}
+.center h4{padding: 1em 0;}
+.striped {
+    content: '';
+    position: absolute;
+    width: 4em;
+    height: 0.1em;
+    background-color: black;
+    left: 6%;
+    margin-bottom: 31px;
+    font-size: 23px;
+}
+h5{padding: 2em 0;}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    }
+.subtitle{
+    padding: 1em 0;
+    font-size: larger;
+}
+.maingrid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding-top: 1em;
+}
+.secondtitle{border-style: solid none solid none;}
+.center{
+    text-align: center;
+    border-right: black 4px solid;
+}
+.center h5::before{padding: 1em 0;}
+.justify{text-align: justify; 
+    padding: 0 1em;
+}
+.titleimgparagraph{padding: 0.5em 0;
+    font-weight: bolder;
+}
+.paragraph{padding-bottom: 0.3em;
+    border-bottom: black solid 4px;
+}
+.secondcolumn {padding:0 0.2em; 
+    border-right: black 4px solid;
+}
+.secondcolumn h2{padding-top: 0.2em;}
+.secondcolumn-section-div-div{
+    display: flex;
+    justify-content: center;
+}
+section div h5{
+    padding: 1em 0; 
+    border-top: black solid 4px;
+}
+.secondcolumnstriped{
+    content: '';
+    position: absolute;
+    width: 4em;
+    height: 0.1em;
+    background-color: black;
+    left: 14em;
+    font-size: 23px;
+}
+.columns{
+    column-count:4;
+    text-align: justify;
+    padding: 1em 0;
+    border-bottom: black solid 4px;
+}
+.secondcolumnsubtitle{
+    padding-top: 1em;
+    font-style: italic;
+    font-family: Times New Roman;
+    font-size: 2em;
+}
+.secondcolumn-h3{
+    padding: 1em 0;
+    font-style: italic;
+}
+.secondcolumnend-section{display: flex;}
+.secondcolumnend-section-div1{width: 35%;}
+.secondcolumnend-section-div1-p-div{
+    display: flex;
+    float: left;
+    width: min-content;
+    margin: 1em;
+    border-bottom: black solid 4px;}
+.secondcolumnend-section-div2{width: 65%;}
+.thirdcolumn{
+    border-top: black 4px solid; 
+    margin-left: 1em;
+}
